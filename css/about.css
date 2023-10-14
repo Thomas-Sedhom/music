@@ -1,0 +1,227 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.clear{clear:both}
+
+/* section 1 */
+
+.container .sec1{
+    width:100%;
+    background-color: antiquewhite;
+    height: 500px;
+    background-image: url("../images/about1.jpg");
+    background-size: 100% 120%;
+    background-position: 50% 75%;
+    color: white;
+    text-align: center;
+}
+
+.container .sec1 .cover{background-color: rgba(0, 0, 0, 0.379); height: 100%;}
+
+.container .sec1 .text{ width: 80%; padding: 200px 0 0 0; margin: auto}
+
+.container .sec1 .text h2{
+    font-size: 63px;
+    margin: 25px auto;
+}
+
+.container .sec1 .text p{font-size: 14px; line-height: 30px; word-spacing:8px ; color: rgba(255, 255, 255, 0.475);}
+
+.container .sec1 .text p .active{color: white;}
+
+/*-------------------------------------------------------------------------------------------------------*/
+/* section 2 */
+
+.container .sec2{width:100%; background-color: #ffffff; padding: 105px 130px 80px 130px}
+
+.container .sec2 .notes, .container .sec3 .image{ width: 40%; float: right}
+
+.container .sec2 .notes{padding:100px 0 0 80px}
+
+.container .sec2 .image{width: 60%;}
+
+.container .sec2 .image img{ width: 100%; height: 570px;}
+
+.container .sec2 .notes .note{
+    width: 100%;
+    padding-bottom: 20px;
+    line-height: 25px;
+    font-size: 17px;
+    color: #888a97
+}
+
+.container .sec2 .notes .note1{ font-size: 17px; padding-bottom: 30px}
+
+.container .sec2 .notes .note h3{padding-bottom:40px; color:black}
+
+.container .sec2 .notes .note1 h3{font-size: 30px}
+
+.container .sec2 .notes .note i{padding-right: 7px; color: #ce5c9f;}
+
+/*-------------------------------------------------------------------------------------------------------*/
+/* section 3*/
+
+.container .sec3{
+    width:100%;
+    background-color: #f8f8f8;
+    color: black;
+    margin: auto;
+    padding: 20px 100px 50px 100px;
+    }
+
+    .container .sec3 .head3{ width: fit-content; margin: 40px auto;text-align: center}
+
+    .container .sec3 .head3 i{padding: 15px; font-size: 40px; color: #ce5c9f}
+
+    .container .sec3 .head3 h2{padding: 15px; font-size: 30px;}
+
+    .container .sec3 .head3 p{color: #888a97; letter-spacing: 1.2px;}
+
+    .container .sec3 .texts{width: 95%; margin: auto;}
+
+    .container .sec3 .texts .text{width: calc(100% / 3); float: left; padding: 25px;}
+
+    .container .sec3 .texts .text h3{padding-bottom: 20px; font-weight: bold; font-size: 18px;}
+
+    .container .sec3 .texts .text p{ font-size: 16px; line-height: 25px; color:#888a97}
+
+
+    /*-------------------------------------------------------------------------------------------------------*/
+    /* section 4 */
+
+    .container .sec4{ 
+        width:100%; 
+        text-align: center; 
+        background-image:url("../images/download9.jpg") ;
+        background-position: 50% 50%;
+        background-size: 180% 160%;
+        background-repeat: no-repeat;
+    }
+
+    .container .sec4 .cover{background-color: rgba(0, 0, 0, 0.622); padding: 100px 0 ;}
+
+    .container .sec4 .header4{ width: fit-content; margin: auto; padding-bottom: 10px;}
+
+    .container .sec4 .header4 h3{ color: white; font-size: 30px; padding: 50px 0 0px 0;}
+
+    .container .sec4 .header4 p{ color: rgba(255, 255, 255, 0.827); font-size: 17px; padding: 30px;}
+
+    .container .sec4 video{ width: 800px}
+
+/*-------------------------------------------------------------------------------------------------------*/
+/* section 5 */
+
+.container .sec5{
+    width:100%; 
+    padding: 50px  100px 50px 100px; 
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+.container .sec5 .header5{margin: 20px;}
+
+.container .sec5 .header5 i{padding: 10px; font-size: 40px; color:#ce5c9f}
+
+.container .sec5 .header5 h3{
+    padding: 10px; 
+    font-size: 35px; 
+    font-weight: 100; 
+    color: #151515dd
+}
+
+.container .sec5 .header5 p{color : #888a97; padding: 10px; font-size: 18px;}
+
+.container .sec5 .images5 {width: 95%; margin: auto;}
+
+.container .sec5 .images5 .box {
+    width: calc((100% / 3) - 30px); 
+    float: left;
+    margin: 15px;
+    background-color: white
+}
+
+.container .sec5 .images5 .image5 {width: 100%; margin-bottom: 15px;}
+
+.container .sec5 .images5 .image5 img {width: 100%;}
+
+.container .sec5 .images5 .box .name {padding: 7px; font-size: 19px;}
+
+.container .sec5 .images5 .box .work {padding: 7px; color:#888a97}
+
+.container .sec5 .images5 .box .data {
+    padding: 20px; 
+    font-size: 16px; 
+    color:#888a97; 
+    line-height: 25px
+}
+
+/*-------------------------------------------------------------------------------------------------------*/
+/* section 6 */
+
+.container .sec6{ 
+    width:100%;
+    padding: 30px  100px 50px 100px;
+    background-image:url("../images/download.jpg") ;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+    color: white
+}
+
+.container .sec6 .uno,
+.container .sec6 .due,
+.container .sec6 .tre,
+.container .sec6 .quatro{float:left; width: 25%; padding: 7px}
+
+.container .sec6 .uno .first-par{padding-bottom: 25px}
+
+.container .sec6 h4{padding: 25px 15px 25px 15px; font-weight: 100}
+
+.container .sec6 p, .container .sec6 .quatro .adress{
+    padding: 0 15px 10px 15px;
+    color:#fcfcfc91;
+    line-height: 25px;
+    font-size: 15px
+}
+
+.container .sec6 hr {border:1px solid #fcfcfc14; margin: 0px}
+
+.container .sec6 .quatro{
+    background-size: 80% 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 70%
+}
+
+.container .sec6 .quatro i{padding-right:8px}
+
+.container .sec6 .quatro .adress p{float:left; padding: 0 8px 10px 0}
+
+/*------------------------------------------------------------------------------------*/
+/* section 7 */
+
+.container .sec7{ 
+    width:100%;
+    padding: 50px  100px 50px 100px;
+    background-color: #151515;
+    color: white;
+    text-align: center
+}
+
+.container .sec7 .image{padding: 20px 0 25px 0}
+
+.container .sec7 p{color:#fcfcfc62}
+
+.container .sec7 .icons{padding: 15px}
+
+.container .sec7 .icons i{
+    padding: 10px 11px 10px 11px;
+    font-size: 15px;
+    background-color: #ce5c9f;
+    color:white;
+    border-radius: 50%;
+    margin: 2px
+}

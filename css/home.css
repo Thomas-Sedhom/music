@@ -1,0 +1,328 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.clear{clear:both}
+
+/* section 1 */
+
+.container .sec1{
+    width:100%;
+    height: 850px;
+    background-image: url("../images/download9.jpg");
+    background-attachment: fixed;
+    background-size: 120% 106%;
+    background-position: 50% 50%;
+    color: white;
+    text-align: center
+}
+
+.container .sec1 .ground{background-color: #00000047;height: 850px}
+
+.container .sec1 .text{ width: 90%; padding: 200px 0 0 0px; margin: auto}
+
+.container .sec1 .text h2, .container .sec1 .text p{
+    font-size: 75px;
+    width: 55%;
+    margin:20px auto;
+    line-height: 70px
+}
+
+.container .sec1 .text p{
+    font-size: 23px; 
+    line-height: 30px; 
+    margin:20px auto;
+    color:#ffffffcc
+}
+
+.container .sec1 .text .caption{font-size: 23px; line-height: 40px; margin:40px auto}
+
+.container .sec1 .text .btn{
+    padding: 20px 22px;
+    font-size: 11px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    letter-spacing: 1.5px
+} 
+
+.container .sec1 .next{
+    width: 3%;
+    margin:140px auto;
+    border-radius: 20px;
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    padding:15px 0;
+    font-size: 30px
+}
+
+.container .sec1 .next a{color:white; text-decoration: none}
+
+/*-------------------------------------------------------------------------------------------------------*/
+/* section 2 */
+
+.container .sec2{width:80%; margin: auto; padding: 40px 15px}
+
+.container .sec2 .card{
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 20px 25px 35px 25px;
+    line-height: 27px
+}
+
+.container .sec2 .card h3{margin: 5px; color:black;font-size: 17px}
+
+.container .sec2 .card p{color:#888a97}
+
+.container .sec2 .card .icon{padding: 5px 0 20px 0}
+
+.container .sec2 .card .icon i{
+    font-size: 35px;
+    background-color: #ce5c9f;
+    border-radius: 50%;
+    padding: 25px 22px;
+    color: white
+}
+
+.container .sec2 .card3 .icon i, .container .sec2 .card4 .icon i {padding: 25px 25px}
+
+/*-------------------------------------------------------------------------------------------------------*/
+/* section 3 */
+
+.container .sec3{width:100%; background-color: #f8f8f8; padding: 105px 130px 60px 130px}
+
+.container .sec3 .notes, .container .sec3 .image{ width: 55%; float: left}
+
+.container .sec3 .image{width: 45%}
+
+.container .sec3 .image img{ width: 100%; height: 570px}
+
+.container .sec3 .notes .note{
+    width: 90%;
+    padding: 20px;
+    line-height: 25px;
+    font-size: 17px;
+    color: #888a97
+}
+
+.container .sec3 .notes h3{padding-bottom:15px; color:black}
+
+.container .sec3 .note1 h3{font-size: 30px; padding-bottom: 30px}
+
+/*-------------------------------------------------------------------------------------------------------*/
+/* section 4*/
+
+    .container .sec4{ 
+        width:100%; 
+        text-align: center; 
+        background-image: url("../images/download10.jpg");
+        background-size: 100% 140%;
+        background-position: 50% 52%
+    }
+
+    .container .sec4 .ground{background-color: #00000063; padding: 20px 0}
+
+    .container .sec4 .intro{margin-bottom: 70px}
+
+    .container .sec4 .intro h2{
+        padding: 70px 0 22px 0;
+        font-size: 30px;
+        color: white;
+        font-weight: 100
+    }
+
+    .container .sec4 .intro p{font-size: 18px; color:#ffffffdf}
+
+    .container .sec4 .texts{width:87%; margin: auto}
+
+    .container .sec4 .texts .text{
+        float: left;
+        width:calc(100% / 3);
+        text-align: center;
+        padding-bottom: 60px
+    }
+
+    .container .sec4 .texts .text .icon, .container .sec5 .texts .text .header {float: left}
+
+    .container .sec4 .texts .text .icon{
+        width: 15%;
+        height: 100%;
+        font-size: 28px;
+        color:white ;
+        padding-bottom: 70px
+    }
+
+    .container .sec4 .texts .text .header{width: 85%; text-align: left}
+
+    .container .sec4 .texts .text .header h3{padding-bottom: 10px; color: white; font-weight: 100}  
+
+    .container .sec4 .texts .text .header p{font-size: 15px; color:#ffffffd9; line-height: 25px}
+
+/*-------------------------------------------------------------------------------------------------------*/
+/* section 5 */
+
+.container .sec5{
+    width:100%;
+    background-image: url("../images/barber-2.jpg");
+    background-size: cover;
+    background-position: 70% 50%;
+    color: black;
+    padding: 20px 90px 50px 90px
+    }
+
+    .sec5 .header5{text-align: center; margin: 30px}
+
+    .sec5 .header5 h3{padding: 20px; font-size: 30px}
+
+    .sec5 .header5 p{color:#00000085; letter-spacing: 1.2px}
+
+    .sec5  .images5 {width: 100%;}
+
+    .sec5  .images5 .image5{float: left; width: calc(100% / 3)}
+
+    .sec5  .images5 .image5 img{width:100%; padding: 20px}
+
+    .sec5  .btn5{margin: auto; width:fit-content}
+
+    .sec5  .btn5 button{
+        padding: 15px;
+        width: 137px;
+        margin: 30px;
+        background-color: #ce5c9f; 
+        color: white;
+        border: none;
+        font-weight: bold;
+        border-radius: 8px;
+    }
+
+    .sec5  .btn5 button i{margin-left: 6px; font-size: 14px; border-radius: 5px}
+/*-------------------------------------------------------------------------------------------------------*/
+/* section 6 */
+
+.container .sec6{ 
+    width:100%; 
+    padding: 50px  100px 50px 100px; 
+    background-color: #f8f8f8; 
+    text-align: center
+}
+
+.container .sec6 .header6{width: fit-content; margin: 20px auto}
+
+.container .sec6 .header6 h3{padding: 20px; font-size: 28px}
+
+.container .sec6 .header6 p{color:#00000085; letter-spacing: 1.1px; margin: 5px;}
+
+.container .sec6 .lists{width: 95%; margin: 40px auto}
+
+.container .sec6 .lists .list{
+    width: calc((100% / 3) -  30px); 
+    margin: 15px; 
+    padding: 25px; 
+    float: left;
+    background-color: white; 
+    text-align: left;
+    border-radius: 5px
+}
+
+.container .sec6 .lists .list h4{ padding-bottom: 10px; font-size: 19px}
+
+.container .sec6 .lists .list .name{ font-size: 14px; color:#00000085; padding-bottom: 15px}
+
+.container .sec6 .lists .list .information{ 
+    font-size: 16px; 
+    color:#000000a8; 
+    padding-bottom: 15px;
+    line-height: 25px
+}
+
+.container .sec6 .lists .list .more{ font-size: 15px; color:#000000a8; padding: 10px 0}
+
+.container .sec6 .lists .list .more i{margin-left: 15px}
+
+.sec6  .btn{margin: auto; width:fit-content}
+
+.sec6  .btn button{
+    padding: 16px; 
+    width: 177px; 
+    margin: 30px; 
+    background-color: #ce5c9f; 
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 7px
+}
+
+.sec6  .btn button i{margin-left: 6px; font-size: 14px ; border-radius: 5px}
+/*-------------------------------------------------------------------------------------------------------*/
+/* section 7 */
+
+.container .sec7{ 
+    width:100%;
+    padding: 30px  100px 50px 100px;
+    background-image:url("../images/download.jpg") ;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+    color: white
+}
+
+.container .sec7 .uno,
+.container .sec7 .due,
+.container .sec7 .tre,
+.container .sec7 .quatro{float:left; width: 25%; padding: 7px}
+
+.container .sec7 .uno .first-par{padding-bottom: 25px}
+
+.container .sec7 h4{padding: 25px 15px 25px 15px; font-weight: 100}
+
+.container .sec7 p, .container .sec7 .quatro .adress{
+    padding: 0 15px 10px 15px;
+    color:#fcfcfc91;
+    line-height: 25px;
+    font-size: 15px
+}
+
+.container .sec7 hr {border:1px solid #fcfcfc14; margin: 0px}
+
+.container .sec7 .quatro{
+    background-size: 80% 50%;
+    background-repeat: no-repeat;
+    background-position: 50% 70%
+}
+
+.container .sec7 .quatro i{padding-right:8px}
+
+.container .sec7 .quatro .adress p{float:left; padding: 0 8px 10px 0}
+
+/*------------------------------------------------------------------------------------*/
+/* section 8 */
+
+.container .sec8{ 
+    width:100%;
+    padding: 50px  100px 50px 100px;
+    background-color: #151515;
+    color: white;
+    text-align: center
+}
+
+.container .sec8 .image{padding: 20px 0 25px 0}
+
+.container .sec8 p{color:#fcfcfc62}
+
+.container .sec8 .icons{padding: 15px}
+
+.container .sec8 .icons i{
+    padding: 10px 11px 10px 11px;
+    font-size: 15px;
+    background-color: #ce5c9f;
+    color:white;
+    border-radius: 50%;
+    margin: 2px
+}
